@@ -5,7 +5,7 @@ using namespace std;
 class Stack
 {
 public:
-    Stack(int size = 50);         // constructor
+    Stack(int size = 100);         // constructor
     ~Stack() { delete[] values; } // destructor
     bool IsEmpty() { return top == -1; }
     bool IsFull() { return top == maxTop; }
